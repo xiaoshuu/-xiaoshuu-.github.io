@@ -57,15 +57,8 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
-/*plugins:
-  - jekyll-feed
-  - jekyll-readme-index
-  - jemoji*/
-  
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-readme-index
   - jemoji
-  - jekyll-remote-theme
 
