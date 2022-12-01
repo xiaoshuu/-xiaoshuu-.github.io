@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://xiaoshuu.github.io/'
-baseurl:          '/jekyll-gitbook'
+baseurl:          '/xiaoshuu.github.io'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -57,7 +57,15 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
-plugins:
+/*plugins:
   - jekyll-feed
   - jekyll-readme-index
+  - jemoji*/
+  
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
   - jemoji
+  - jekyll-remote-theme
+
