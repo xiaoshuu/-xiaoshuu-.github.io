@@ -11,5 +11,5 @@ ball ball你了
 我不好
 
 ```yaml
-remote_theme: sighingnow/jekyll-gitbook
+嗨嗨嗨
 ```
